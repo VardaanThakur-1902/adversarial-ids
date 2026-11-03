@@ -1,15 +1,44 @@
-.venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
+# Dataset files
 data/raw/
 data/processed/
 data/splits/
+balancing/data/processed/
 
-models/*.pt
-models/*.pth
+# CSV and large dataset files
+*.csv
+*.parquet
+*.feather
 
-experiments/results/
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
 
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
 .env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
