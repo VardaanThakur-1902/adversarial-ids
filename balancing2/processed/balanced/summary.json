@@ -1,0 +1,82 @@
+[
+ {
+  "method": "none",
+  "rows": 140311,
+  "normal": 19027,
+  "attack": 121284,
+  "attack_share": 0.8644,
+  "seconds": 0
+ },
+ {
+  "method": "random_over",
+  "rows": 242568,
+  "normal": 121284,
+  "attack": 121284,
+  "attack_share": 0.5,
+  "seconds": 2.3
+ },
+ {
+  "method": "random_under",
+  "rows": 38054,
+  "normal": 19027,
+  "attack": 19027,
+  "attack_share": 0.5,
+  "seconds": 0.4
+ },
+ {
+  "method": "smote",
+  "rows": 242568,
+  "normal": 121284,
+  "attack": 121284,
+  "attack_share": 0.5,
+  "seconds": 4.7
+ },
+ {
+  "method": "borderline_smote",
+  "rows": 242568,
+  "normal": 121284,
+  "attack": 121284,
+  "attack_share": 0.5,
+  "seconds": 17.2
+ },
+ {
+  "method": "adasyn",
+  "rows": 242847,
+  "normal": 121563,
+  "attack": 121284,
+  "attack_share": 0.4994,
+  "seconds": 18.3
+ },
+ {
+  "method": "under_then_smote",
+  "rows": 76108,
+  "normal": 38054,
+  "attack": 38054,
+  "attack_share": 0.5,
+  "seconds": 2.8
+ },
+ {
+  "method": "smote_tomek",
+  "rows": 242092,
+  "normal": 121046,
+  "attack": 121046,
+  "attack_share": 0.5,
+  "seconds": 280.1
+ },
+ {
+  "method": "smote_enn",
+  "rows": 236452,
+  "normal": 118548,
+  "attack": 117904,
+  "attack_share": 0.4986,
+  "seconds": 280.6
+ },
+ {
+  "method": "tomek_links",
+  "rows": 140193,
+  "normal": 19027,
+  "attack": 121166,
+  "attack_share": 0.8643,
+  "seconds": 97.0
+ }
+]
